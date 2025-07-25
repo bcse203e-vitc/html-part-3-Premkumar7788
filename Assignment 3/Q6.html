@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+</head>
+<body>
+    <form action="Feedback" background-color="red">
+        <label for="name">Name</label><br>
+        <input type="text" id="Fullname" name="Fullname" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+        <label for="Rating">Rate the Website :</label><br>
+        <input type="radio" name="1star" id="Rating">
+        <label for="1star">1 Star</label><br>
+        <input type="radio" name="2star" id="Rating">
+        <label for="2star">2 Star</label><br>
+        <input type="radio" name="3star" id="Rating">
+        <label for="3star">3 Star</label><br>
+        <input type="radio" name="4star" id="Rating">
+        <label for="4star">4 Star</label><br>
+        <input type="radio" name="5star" id="Rating">
+        <label for="5star">5 Star</label><br><br>
+        <label for="feedback">Feedback</label>
+        <select name="feedback" id="feedback">
+            <option value="suggestion">Suggestion</option>
+            <option value="Bugreport">Bug Report</option>
+            <option value="Compliment">Compliment</option>
+        </select><br>
+        <input type="text" id="feedback" name="feedback"><br><br>
+        <label for="recommendation">Would you recommend us ?</label><br>
+        <input type="radio" id="Yes" name="recommendation">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="recommendation">
+        <label for="No">No</label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

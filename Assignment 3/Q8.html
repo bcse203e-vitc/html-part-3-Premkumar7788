@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 8</title>
+</head>
+<body>
+    <form id="travelForm">
+    <h2>Travel Booking Form</h2>
+    
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" required><br><br>
+    <label for="contact">Contact Information:</label><br>
+    <input type="tel" id="contact" name="contact" required><br><br>
+    <label for="destination">Destination:</label>
+    <select id="destination" name="destination" required>
+      <option value="">--Select--</option>
+      <option value="paris">Paris</option>
+      <option value="newyork">New York</option>
+      <option value="tokyo">Tokyo</option>
+      <option value="sydney">Sydney</option>
+    </select><br><br>
+    <label for="travelDate">Travel Date:</label>
+    <input type="date" id="travelDate" name="travelDate" required><br><br>
+    <label for="numTravelers">Number of Travelers:</label><br>
+    <input type="number" id="numTravelers" name="numTravelers" value="10" required><br><br>
+    <label for="travelclass">Travel Class</label><br>
+    <input type="radio" name="class" value="economy" checked> Economy
+    <input type="radio" name="class" value="business"> Business
+    <input type="radio" name="class" value="first"> First Class <br><br>
+    <input type="checkbox" id="insurance" name="insurance">
+    <label for="insurance">Add Travel Insurance</label><br><br>
+    <label for="totalcost"><strong>Total Cost = 50,000rs</strong></label>
+</body>
+</html>

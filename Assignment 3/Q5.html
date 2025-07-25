@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+</head>
+<body>
+    <form action="login">
+        <label for="Fullname">Full Name</label><br>
+        <input type="text" id="Fullname" name="Fullname" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+        <label for="Phonenumber">Phonenumber</label><br>
+        <input type="number" id="Phonenumber" name="Phonenumber" required><br><br>
+        <label for="Gender">Gender :</label><br>
+        <input type="radio" id="male" name="Gender" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender" required>
+        <label for="female">Female</label><br><br>
+        <label for="Agegroup">Agegroup</label>
+        <select name="Agegroup" id="Agegroup">
+            <option value="10-20">10-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-40">31-40</option>
+            <option value="41-50">41-50</option>
+            <option value="51-50">51-60</option>
+        </select><br><br>
+        <label for="Topicofinterest">Topic Of Interest</label><br>
+        <input type="checkbox" id="Cricket" name="Topicofinterest" value="Cricket">
+        <label for="Cricket">Cricket</label><br>
+        <input type="checkbox" id="Football" name="Topicofinterest" value="Football">
+        <label for="Football">Football</label><br><br>
+        <label for="Addcomments">Additional Comments</label>
+        <input type="text" id="Addcomments" name="Addcomments"><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
